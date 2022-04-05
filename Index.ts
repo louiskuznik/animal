@@ -1,7 +1,5 @@
 import Chat from './class/Chat';
 
-let currentDate = new Date();
-let newDate = currentDate.setDate( currentDate.getDate() - 6 );
-const Boby: Chat = new Chat('Boby', 3, currentDate)
+const Boby: Chat = new Chat('Boby', 3, '23-11-2016');
 
 console.log(Boby.display());
